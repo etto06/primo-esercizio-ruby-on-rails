@@ -1,10 +1,11 @@
 #metodi
 #definisco un nuovo metodo, servono a definire dei blocchi di codice da riutilizzare più volte
-def saluta
-    puts "ciao!!"
+def saluta(nome)
+    puts "ciao!! " + nome
 end
 
 
 
-saluta
-saluta
+saluta("aldo")
+saluta("giovanni")
+saluta("giacomo")
